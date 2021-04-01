@@ -1,0 +1,96 @@
+// antialias
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 16px;
+  background: $background-color;
+  color: $text-color;
+  text-align: center;
+  overscroll-behavior: none;
+}
+section {
+  padding: 3em 0;
+  &.divide {
+    background: $foreground-color;
+  }
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: Arial;
+  color: $text-color;
+  margin-top: 0;
+  margin-bottom: 0;
+  &.heading{
+    margin-top: 0.5em;
+    margin-bottom: 1em;
+  }
+}
+
+h1 {
+  font-size: 2.5em;
+}
+
+h2 {
+  font-size: 2.25em;
+}
+
+h3 {
+  font-size: 1.5em;
+}
+
+.special {
+  cursor: pointer;
+  color: $link-color;
+}
+
+@include screen($tablet) {
+  h1 {
+    font-size: 3em;
+  }
+  h2 {
+    font-size: 2.25em;
+  }
+  h3 {
+    font-size: 1.75em;
+  }
+}
+
+a {
+  color: $link-color;
+  text-decoration: none;
+  &:hover {
+    color: $text-color;
+  }
+}
+
+p {
+  a {
+    font-style: italic;
+  }
+}
+
+body.dark-theme {
+  background: $background-color--dark;
+  color: $text-color--dark;
+  h1,h2,h3,h4,h5,h6 {
+    color: $text-color--dark;
+  }
+  a {
+    color: $link-color--dark;
+    &:hover {
+      color: $text-color--dark;
+    }
+  }
+  section {
+    &.divide {
+      background: $foreground-color--dark;
+    }
+  }
+  .special {
+    color: $link-color--dark;
+  }
+}

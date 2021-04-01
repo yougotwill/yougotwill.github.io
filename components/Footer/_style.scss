@@ -1,0 +1,61 @@
+footer {
+  background: $background-color;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 0;
+  z-index: 2;
+  height: 100%;
+  max-height: 36px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  a {
+    @extend .button;
+    padding-left: .25em;
+    padding-right: .25em;
+    img {
+      width: 22px;
+      height: 22px;
+      background-color: transparent;
+    }
+  }
+  .built-with, .banner {
+    font-weight: 700;
+    padding-left: 1em;
+    display: none;
+  }
+  .banner {
+    img {
+      padding-left: 0.5em;
+      vertical-align: bottom;
+    }
+  }
+  .icon {
+    padding: 0 .5em;
+    padding-top: .35em;
+    padding-bottom: .05em;
+    &:hover {
+      padding-top: .1em;
+      padding-bottom: .25em;
+    }
+  }
+  @include screen($laptop) {
+    justify-content: space-between;
+    font-size: 1.05em;
+    .built-with, .banner {
+      display: block;
+    }
+    .banner {
+      padding-left: 2.5em;
+    }
+  }
+}
+
+body.dark-theme {
+  footer {
+    background: $nav-color--dark;
+    border-top: none;
+  }
+}

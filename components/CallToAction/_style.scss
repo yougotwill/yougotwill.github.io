@@ -1,0 +1,58 @@
+#cta {
+  .call-to-action {
+    margin-bottom: 4.5em;
+    h2 {
+      margin-top: 0.5em;
+      font-size: 2.5em;
+    }
+    p {
+      padding-bottom: 16px;
+    }
+    a {
+      display: block;
+      padding: 8px 16px;
+      max-width: 196px;
+      font-size: 22px;
+      background: $background-color;
+      color: $primary-color;
+      border-radius: 6px;
+      text-decoration: none;
+      margin: 24px auto;
+      position: relative;
+      border: 1px solid $nav-color;
+      img {
+        vertical-align: middle;
+        margin-top: -4px;
+        margin-left: 4px;
+      }
+      &:hover {
+        color: $primary-color;
+      }
+    }
+    @include screen($tablet) {
+      a {
+        display: inline-block;
+        padding: 8px 32px;
+        margin: 0 16px;
+        &:hover {
+          @include grow(1.2);
+        }
+      }
+    }
+  }
+}
+
+body.dark-theme {
+  #cta {
+    .call-to-action {
+      a {
+        background: $background-color--dark;
+        color: $primary-color;
+        border: 1px solid transparent;
+        &:hover {
+          color: $primary-color;
+        }
+      }
+    }
+  }
+}

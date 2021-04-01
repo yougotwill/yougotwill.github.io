@@ -1,0 +1,7 @@
+// mixin for the grow on hover effect
+@mixin grow($scale: 1.2) {
+  transition: transform .4s ease-in-out;
+  &:hover{
+    transform: scale($scale);
+  }
+}

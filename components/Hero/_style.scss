@@ -1,0 +1,55 @@
+#hero {
+  .profile {
+    margin-top: 2em;
+    img {
+      max-width: 175px;
+      max-height: 175px;
+    }
+    @include screen($tablet) {
+      img {
+        max-width: 250px;
+        max-height: 250px;
+      }
+    }
+  }
+  .quote {
+    @include screen($tablet) {
+      font-size: 1.2em;
+    }
+  }
+  .info-grid{
+    padding-top: 1em;
+    padding-bottom: 5em;
+    margin: 0 auto;
+    .subtitle {
+      font-weight: 700;
+      padding-bottom: 1em;
+      .icon {
+        display: block;
+        padding-top: 0.5em;
+      }
+    }
+    .left {
+      padding-right: 0.5em;
+    }
+    .right {
+      padding-left: 0.5em;
+    }
+    @include screen($tablet) {
+      .subtitle {
+        font-size: 1.4em;
+        font-weight: 500;
+        .icon {
+          display: inline;
+          padding-top: 0;
+        }
+      }
+      .left {
+        padding-right: 2em;
+      }
+      .right {
+        padding-left: 2em;
+      }
+    }
+  }
+}

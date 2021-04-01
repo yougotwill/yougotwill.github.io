@@ -1,0 +1,31 @@
+@include screen($laptop) {
+  .col-2 {
+    float: left;
+    width: 50%;
+  }
+
+  .col-4 {
+    float: left;
+    width: 25%;
+  }
+  
+  .row:after {
+    content: '';
+    display: table;
+    clear: both;
+  }
+}
+
+.is-tablet {
+  @include screen($tablet) {
+    .col-4 {
+      float: left;
+      width: 36%;
+    }
+    &.row:after {
+      content: '';
+      display: table;
+      clear: both;
+    }
+  }
+}

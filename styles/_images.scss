@@ -1,0 +1,23 @@
+.image{
+  background: $foreground-color;
+  border-radius: 6px;
+  max-width: 150px;
+  max-height: 150px;
+  &.round {
+    border-radius: 50%;
+  }
+  @include screen($tablet) {
+    max-width: 200px;
+    max-height: 200px;
+  }
+  @include screen($laptop) {
+    max-width: 250px;
+    max-height: 250px;
+  }
+}
+
+body.dark-theme {
+  .image {
+    background: $foreground-color--dark;
+  }
+}
