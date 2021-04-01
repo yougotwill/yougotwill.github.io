@@ -1,16 +1,11 @@
 // TODO upgrade
 const ThemeToggle = () => {
-  const clickHandler = () => {
-    localStorage.setItem('mode',
-      (localStorage.getItem('mode') || 'dark-theme') === 'dark-theme'
-      ? 'light-theme'
-      : 'dark-theme');
-    localStorage.getItem('mode') === 'dark-theme'
-      ? document.querySelector('body').classList.add('dark-theme')
-      : document.querySelector('body').classList.remove('dark-theme');
+  const toggleTheme = () => {
+    localStorage.getItem('theme') ? localStorage.removeItem('theme') : localStorage.setItem('theme', 'dark');
+    document.querySelector('body').classList.toggle('dark-theme')
   };
   return (
-    <div className="theme-toggle" onClick={clickHandler}>
+    <div className="theme-toggle" onClick={toggleTheme}>
       <img src='/resources/ui/theme-light.svg' alt='sun' className="light" />
       <img src='/resources/ui/theme-dark.svg' alt='moon' className="dark" />
     </div>
