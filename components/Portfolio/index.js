@@ -8,7 +8,7 @@ const Portfolio = () => {
         <div className="row">
           <div className="project-card col-2">
             <div className="avatar screenshot">
-              <img src="https://raw.githubusercontent.com/yougotwill/motii/master/assets/desktop-light.png" alt="screenshot"/>
+              <img src="https://raw.githubusercontent.com/yougotwill/motii/master/assets/desktop-light.png" width='100px' height='100px' alt="screenshot"/>
             </div>
             <div className="details">
               <h3>motii</h3>
@@ -18,7 +18,7 @@ const Portfolio = () => {
           </div>
           <div className="project-card col-2">
             <div className="avatar screenshot">
-              <img src="https://raw.githubusercontent.com/yougotwill/phonics-esl/master/assets/desktop-light.png" alt="screenshot"/>
+              <img src="https://raw.githubusercontent.com/yougotwill/phonics-esl/master/assets/desktop-light.png" width='100px' height='100px' alt="screenshot"/>
             </div>
             <div className="details">
               <h3>Phonics ESL</h3>
@@ -31,7 +31,7 @@ const Portfolio = () => {
         <div className="row">
           <div className="project-card col-2">
             <div className="avatar screenshot">
-              <img src="https://raw.githubusercontent.com/yougotwill/sortifiler/master/src/assets/screenshots/screenshot.png" alt="screenshot"/>
+              <img src="https://raw.githubusercontent.com/yougotwill/sortifiler/master/src/assets/screenshots/screenshot.png" width='100px' height='100px' alt="screenshot"/>
             </div>
             <div className="details">
               <h3>Sortifiler Website</h3>
@@ -42,7 +42,7 @@ const Portfolio = () => {
           </div>
           <div className="project-card col-2">
             <div className="avatar screenshot">
-              <img src="https://raw.githubusercontent.com/yougotwill/art-gallery/master/assets/screenshots/screenshot-light-1.jpg" alt="screenshot"/>
+              <img src="https://raw.githubusercontent.com/yougotwill/art-gallery/master/assets/screenshots/screenshot-light-1.jpg" width='100px' height='100px' alt="screenshot"/>
             </div>
             <div className="details">
               <h3>Art Gallery</h3>
@@ -55,7 +55,7 @@ const Portfolio = () => {
         <div className="row">
           <div className="project-card col-2">
             <div className="avatar screenshot">
-              <img src='/resources/images/screenshot-dark.png' alt="screenshot"/>
+              <img src='/resources/images/screenshot-dark.png' alt="screenshot" width='100px' height='100px'/>
             </div>
             <div className="details">
               <h3>yougotwill.github.io</h3>
@@ -66,7 +66,7 @@ const Portfolio = () => {
           </div>
           <div className="project-card col-2">
             <div className="avatar">
-              <img src="https://raw.githubusercontent.com/yougotwill/todo-box/master/src/resources/todobox.png" alt="screenshot"/>
+              <img src="https://raw.githubusercontent.com/yougotwill/todo-box/master/src/resources/todobox.png" alt="screenshot" width='100px' height='100px'/>
             </div>
             <div className="details">
               <h3>Todo Box</h3>
@@ -81,7 +81,7 @@ const Portfolio = () => {
         <div className="row">
           <div className="project-card col-2">
             <div className="avatar">
-              <img src='/resources/ui/mystery.svg' alt="screenshot"/>
+              <img src='/resources/ui/mystery.svg' alt="screenshot" width='100px' height='100px'/>
             </div>
             <div className="details">
               <h3>Sortifiler Desktop</h3>
@@ -91,7 +91,7 @@ const Portfolio = () => {
           </div>
           <div className="project-card col-2">
             <div className="avatar screenshot">
-              <img src="https://raw.githubusercontent.com/yougotwill/Eden/masterFix/Main%20Menu.png" alt="screenshot"/>
+              <img src="https://raw.githubusercontent.com/yougotwill/Eden/masterFix/Main%20Menu.png" alt="screenshot" width='100px' height='100px'/>
             </div>
             <div className="details">
               <h3>Eden's Odyssey</h3>
@@ -105,7 +105,7 @@ const Portfolio = () => {
         <div className="row">
           <div className="project-card col-2">
             <div className="avatar">
-              <img src="https://raw.githubusercontent.com/BoostIO/Boostnote/master/resources/app.png" alt="screenshot"/>
+              <img src="https://raw.githubusercontent.com/BoostIO/Boostnote/master/resources/app.png" alt="screenshot" width='100px' height='100px'/>
             </div>
             <div className="details">
               <h3>BoostNote</h3>
@@ -115,7 +115,7 @@ const Portfolio = () => {
           </div>
           <div className="project-card col-2">
             <div className="avatar">
-              <img src="https://raw.githubusercontent.com/dracula/coteditor/master/screenshot.png" alt="screenshot"/>
+              <img src="https://raw.githubusercontent.com/dracula/coteditor/master/screenshot.png" alt="screenshot" width='100px' height='100px'/>
             </div>
             <div className="details">
               <h3>Dracula</h3>

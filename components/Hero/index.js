@@ -2,7 +2,7 @@ const Hero = () => {
   return (
     <section id='hero'>
       <div className="profile">
-        <img src='/resources/images/avatar.jpg' alt="profile" className="image round" />
+        <img src='/resources/images/avatar.jpg' alt="profile" className="image round" width='175px' height='175px' />
         <h1 className="heading">William Grant</h1>
       </div>
     <p className="quote"><i>"Without music, life would be a mistake." - Friedrich Nietzsche</i></p>
