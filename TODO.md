@@ -2,4 +2,4 @@
 - [?] Add all resources
 - [x] Correct implement JS
 - [ ] Music Page
-- [ ] Mobile Menu
+- [x] Mobile Menu
