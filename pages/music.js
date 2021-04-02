@@ -11,7 +11,9 @@ export default function Music() {
         <title>William Grant - Music</title>
       </Head>
       <Layout>
-        <h1 class="loading">Loading...</h1>
+        <div className="loading">
+          <h1>Loading...</h1>
+        </div>
         <Playlists />
       </Layout>
     </>

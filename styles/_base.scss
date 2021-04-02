@@ -47,8 +47,10 @@ h3 {
   top: 33.33%;
   left: 0;
   right: 0;
-  font-size: 4em;
   z-index: -1;
+  h1 {
+    font-size: 4em;
+  }
 }
 
 .special {

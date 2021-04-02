@@ -1,2 +1,2 @@
 - [ ] Image loading styling
-- [ ] 404 Page
+- [x] 404 Page
