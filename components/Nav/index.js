@@ -39,8 +39,8 @@ const Nav = () => {
       </div>
       <ul id="js-nav-items">
         <li><Link href='/'><a>Home</a></Link></li>
-        <li><Link href='#portfolio'><a>Portfolio</a></Link></li>
-        <li><Link href='#about'><a>About</a></Link></li>
+        <li><Link href='/#portfolio'><a>Portfolio</a></Link></li>
+        <li><Link href='/#about'><a>About</a></Link></li>
         <li><Link href='/music'><a>Music</a></Link></li>
       </ul>
       <ThemeToggle />

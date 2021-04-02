@@ -42,6 +42,15 @@ h3 {
   font-size: 1.5em;
 }
 
+.loading {
+  position: absolute;
+  top: 33.33%;
+  left: 0;
+  right: 0;
+  font-size: 4em;
+  z-index: -1;
+}
+
 .special {
   cursor: pointer;
   color: $link-color;

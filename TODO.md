@@ -1,5 +1,5 @@
 - [x] Add Dark Theme
 - [?] Add all resources
 - [x] Correct implement JS
-- [ ] Music Page
+- [x] Music Page
 - [x] Mobile Menu
