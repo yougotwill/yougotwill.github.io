@@ -55,7 +55,7 @@ const Portfolio = () => {
         <div className="row">
           <div className="project-card col-2">
             <div className="avatar screenshot">
-              <img src='/resources/images/screenshot-dark.png' alt="screenshot" width='100px' height='100px'/>
+              <img src='/resources/images/screenshot.png' alt="screenshot" width='100px' height='53px'/>
             </div>
             <div className="details">
               <h3>yougotwill.github.io</h3>
