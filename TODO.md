@@ -1,5 +1,2 @@
-- [x] Add Dark Theme
-- [?] Add all resources
-- [x] Correct implement JS
-- [x] Music Page
-- [x] Mobile Menu
+- [ ] Image loading styling
+- [ ] 404 Page
