@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "build:static": "next build && next export",
-    "start": "next start"
+    "start": "next start",
+    "start:static": "npx serve -s out"
   },
   "dependencies": {
     "next": "10.0.9",

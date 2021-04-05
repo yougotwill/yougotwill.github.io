@@ -1,7 +1,14 @@
-if (typeof window !== "undefined") {
-  document.addEventListener('DOMContentLoaded', function () {
-    localStorage.getItem('theme')
-      ? document.querySelector('body').classList.add('dark-theme')
-      : document.querySelector('body').classList.remove('dark-theme');
-  });
+const loadTheme = () => {
+  localStorage.getItem('theme')
+    ? document.querySelector('body').classList.add('dark-theme')
+    : document.querySelector('body').classList.remove('dark-theme');
+};
+if (typeof window !== 'undefined') {
+  if (document.readyState !== 'loading') {
+    loadTheme();
+  } else {
+    document.addEventListener('DOMContentLoaded', function () {
+      loadTheme();
+    });
+  }
 };
