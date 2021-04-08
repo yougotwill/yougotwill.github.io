@@ -10,12 +10,12 @@ const Hero = () => {
     <table className="info-grid">
       <tbody>
         <tr>
-          <td className="subtitle left">Web Developer <span className="icon" role='img' aria-label='programmer'>👨‍💻</span></td>
-          <td className="subtitle right">English Teacher <span className="icon" role='img' aria-label='teacher'>👨‍🏫</span></td>
+          <td className="subtitle left">South African <span className="icon" role='img' aria-label='south africa'>🇿🇦</span></td>
+          <td className="subtitle right">Web Developer <span className="icon" role='img' aria-label='programmer'>👨‍💻</span></td>
         </tr>
         <tr>
-          <td className="subtitle left">South African <span className="icon" role='img' aria-label='south africa'>🇿🇦</span></td>
-          <td className="subtitle right">Living in Japan <span className="icon" role='img' aria-label='japan'>🇯🇵</span></td>
+          <td className="subtitle left">Music Lover <span className="icon" role='img' aria-label='headphones'>🎧</span></td>
+          <td className="subtitle right">Ramen Enthusiast <span className="icon" role='img' aria-label='ramen bowl'>🍜</span></td>
         </tr>
       </tbody>
     </table>

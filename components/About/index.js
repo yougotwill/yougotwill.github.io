@@ -36,13 +36,13 @@ const About = () => {
 
           <p>As the internet continued to grow, I was exposed to emerging technologies and I gained an interest in the web and how it has evolved to help us in our daily lives. From there I realised I had a good eye for what made things 'look good' and my obsession with front end development was born!</p>
 
-          <p>Now I'm an aspiring front end developer with some experience under my belt. Around 2 years ago I moved to Japan and when I'm not coding, I'm studying Japanese, finding ramen shops and going on nature runs.</p>
+          <p>Now I'm an aspiring web developer with a front-end focus. My other interests are studying Japanese, listening to music and going on runs.</p>
 
           <p>Here's my <a href="https://drive.google.com/file/d/1FpGmgjNU0zxcZ6B9JhdeffmCqU2iaPLv/view?usp=sharing" target="_blank" rel="noopener noreferrer">resume</a> if you want to learn more.</p>
           <br />
 
-          <p className="special">Current living in <span role='img' aria-label='house'>🏡</span></p>
-          <p>Hyogo, Japan</p>
+          <p className="special">Current location <span role='img' aria-label='globe'>🌍</span></p>
+          <p>South Africa</p>
 
           <p className="special">Passionate about <span role='img' aria-label='heart'>❤️</span></p>
           <p>Travel, Music, Reading</p>
