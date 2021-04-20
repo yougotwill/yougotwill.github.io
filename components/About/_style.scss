@@ -1,4 +1,5 @@
 #about {
+  position: relative;
   .about-box {
     display: flex;
     flex-direction: column;
@@ -9,6 +10,8 @@
     padding-bottom: 2em;
     h2 {
       text-align: center;
+      text-decoration: underline;
+      text-decoration-thickness: 2px;
     }
     .avatar {
       margin: .25em auto .5em;

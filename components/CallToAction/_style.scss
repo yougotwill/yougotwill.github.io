@@ -1,6 +1,10 @@
 #cta {
+  border-top: 2px solid $text-color;
+  border-bottom: 2px solid $text-color;
+  margin-bottom: 3rem;
+  padding-top: 2rem;
   .call-to-action {
-    margin-bottom: 4.5em;
+    margin-bottom: 2.5em;
     h2 {
       margin-top: 0.5em;
       font-size: 2.5em;
@@ -44,6 +48,7 @@
 
 body.dark-theme {
   #cta {
+    border-color: $text-color--dark;
     .call-to-action {
       a {
         background: $background-color--dark;

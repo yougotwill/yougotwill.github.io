@@ -13,9 +13,12 @@ body {
   overscroll-behavior: none;
 }
 section {
-  padding: 3em 0;
+  padding: 1em 0;
   &.divide {
     background: $foreground-color;
+  }
+  @include screen($laptop) {
+    padding: 2em 0;
   }
 }
 
@@ -50,6 +53,26 @@ h3 {
   z-index: -1;
   h1 {
     font-size: 4em;
+  }
+}
+
+.scroller {
+  width: 1.5em;
+  height: 1.5em;
+  fill: currentColor;
+  position: absolute;
+  bottom: 0.5em;
+  animation: pulse 2s cubic-bezier(.4,0,.6,1) infinite;
+  &.left {
+    left: 1em;
+  }
+  &.right {
+    right: 1em;
+  }
+  @keyframes pulse {
+    50% {
+      opacity: 0.1;
+    }    
   }
 }
 

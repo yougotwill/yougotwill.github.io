@@ -59,7 +59,7 @@ const Portfolio = () => {
             </div>
             <div className="details">
               <h3>yougotwill.github.io</h3>
-              <p>The source code for this website! Built for beginner developers and easy to use.</p>
+              <p>The source code for this website! Built with Next.js and SASS.</p>
               <a href="https://github.com/yougotwill/yougotwill.github.io" target="_blank" rel="noopener noreferrer">Go to project</a>
               <span className="special"> | You are here!</span>
             </div>
@@ -134,6 +134,8 @@ const Portfolio = () => {
           </div>
         </div>
       </div>
+      <svg className='scroller left' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M0 7.33l2.829-2.83 9.175 9.339 9.167-9.339 2.829 2.83-11.996 12.17z"/></svg>
+      <svg className='scroller right' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M0 7.33l2.829-2.83 9.175 9.339 9.167-9.339 2.829 2.83-11.996 12.17z"/></svg>
     </section>
   );
 };

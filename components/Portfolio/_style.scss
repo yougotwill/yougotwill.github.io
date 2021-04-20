@@ -1,10 +1,16 @@
 #portfolio {
+  position: relative;
+  border-bottom: 2px solid $text-color;
   .projects {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     padding-bottom: 4em;
+    h2 {
+      text-decoration: underline;
+      text-decoration-thickness: 2px;
+    }
     h3 {
       &.heading {
         margin-top: 0;
@@ -101,6 +107,7 @@
 
 body.dark-theme {
   #portfolio {
+    border-color: $text-color--dark;
     .project-card {
       background: $foreground-color--dark;
       &:hover {
