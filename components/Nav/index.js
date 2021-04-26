@@ -1,6 +1,7 @@
 import { useEffect } from 'react';
 import Link from 'next/link';
-import ThemeToggle from '../ThemeToggle';
+
+import ThemeToggle from '@components/ThemeToggle';
 
 const Nav = () => {
   useEffect(() => {
@@ -42,6 +43,7 @@ const Nav = () => {
         <li><Link href='/#portfolio'><a>Portfolio</a></Link></li>
         <li><Link href='/#about'><a>About</a></Link></li>
         <li><Link href='/music'><a>Music</a></Link></li>
+        <li><Link href='/blog'><a>Blog</a></Link></li>
       </ul>
       <ThemeToggle />
     </nav>
