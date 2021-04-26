@@ -1,7 +1,7 @@
 import React from 'react';
 
-import Nav from '../Nav';
-import Footer from '../Footer';
+import Nav from '@components/Nav';
+import Footer from '@components/Footer';
 
 const Layout = ({title = 'William Grant', children}) => {
   return (

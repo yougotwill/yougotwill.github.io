@@ -1,8 +1,9 @@
 import Head from 'next/head';
 
-import '../utils/theme';
-import Layout from '../components/Layout';
-import Playlists from '../components/Playlists';
+import '@utils/theme';
+
+import Layout from '@components/Layout';
+import Playlists from '@components/Playlists';
 
 export default function Music() {
   return (

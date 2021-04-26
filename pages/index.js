@@ -1,11 +1,11 @@
 import Head from 'next/head';
-import '../utils/theme';
 
-import Layout from '../components/Layout';
-import Hero from '../components/Hero';
-import Portfolio from '../components/Portfolio';
-import About from '../components/About';
-import CallToAction from '../components/CallToAction';
+import '@utils/theme';
+import Layout from '@components/Layout';
+import Hero from '@components/Hero';
+import Portfolio from '@components/Portfolio';
+import About from '@components/About';
+import CallToAction from '@components/CallToAction';
 
 export default function Home() {
   return (

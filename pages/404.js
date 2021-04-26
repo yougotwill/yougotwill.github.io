@@ -1,8 +1,8 @@
 import Head from 'next/head';
 import { useRouter } from 'next/router';
 
-import '../utils/theme';
-import Layout from '../components/Layout';
+import '@utils/theme';
+import Layout from '@components/Layout';
 
 export default function Custom404() {
   const router = useRouter();
