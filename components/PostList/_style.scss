@@ -13,7 +13,7 @@
     .post-card {
       background: $foreground-color;
       width: 300px;
-      height: 300px;
+      height: 200px;
       margin: 1em 1em 2.5em;
       padding-bottom: 2em;
       border: 1px solid $nav-color;
@@ -33,12 +33,7 @@
         width: 480px;
         height: 200px;
         margin: 0 0.5rem 2.5em;
-        text-align: left;
         display: block;
-        h3 {
-          margin-top: 0;
-          margin-bottom: 0;
-        }
         &:hover {
           background: darken($color: $background-color, $amount: 10);
           border-color: black;

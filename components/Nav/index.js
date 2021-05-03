@@ -30,12 +30,12 @@ const Nav = () => {
     <nav>
       <div id="js-nav-toggle" className="logo">
         <div className="open">
-          <img src="resources/ui/hamburger-light.svg" alt='open menu' className="light" />
-          <img src="resources/ui/hamburger-dark.svg" alt='open menu' className="dark" />
+          <img src="/resources/ui/hamburger-light.svg" alt='open menu' className="light" />
+          <img src="/resources/ui/hamburger-dark.svg" alt='open menu' className="dark" />
         </div>
         <div className="close">
-          <img src="resources/ui/close-light.svg" alt='close menu' className="light" />
-          <img src="resources/ui/close-dark.svg" alt='close menu' className="dark" />
+          <img src="/resources/ui/close-light.svg" alt='close menu' className="light" />
+          <img src="/resources/ui/close-dark.svg" alt='close menu' className="dark" />
         </div>
       </div>
       <ul id="js-nav-items">

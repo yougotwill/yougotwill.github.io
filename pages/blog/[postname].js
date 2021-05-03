@@ -1,26 +1,22 @@
 import Head from 'next/head';
 import matter from 'gray-matter';
-import ReactMarkdown from 'react-markdown';
 
 import '@utils/theme';
 
+import CallToAction from '@components/CallToAction';
 import Layout from '@components/Layout';
+import Post from '@components/Post';
 
-export default function Post({ frontMatter, markdownBody }) {
+export default function BlogPost({ frontMatter, markdownBody }) {
   if (!frontMatter) return <></>;
   return (
     <>
+      <Head>
+        <title>{frontMatter.title} | William Grant</title>
+      </Head>
       <Layout>
-        <Head>
-          <title>{frontMatter.title} | William Grant</title>
-        </Head>
-        <article>
-          <h1>{frontMatter.title}</h1>
-          <p>By {frontMatter.author}</p>
-          <div>
-            <ReactMarkdown children={markdownBody} />
-          </div>
-        </article>
+        <Post title={frontMatter.title} author={frontMatter.author} markdown={markdownBody} />
+        <CallToAction />
       </Layout>
     </>
   );

@@ -1,6 +1,7 @@
 - [ ] Image loading styling
 - [x] 404 Page
 - [ ] Extract `project-card` and `post-card` styling into `card` module.
+- [ ] Updated nav styling to include lines
 
 ## Blog
 
