@@ -24,12 +24,17 @@
       flex-direction: column;
       justify-content: center;
       align-items: center;
+      a {
+        color: $text-color;
+      }
       h3 {
         margin-top: 1em;
         margin-bottom: 1em;
       }
+      .read-more {
+        color: $link-color;
+      }
       @include screen($tablet) {
-        // @include grow(1.1);
         width: 480px;
         height: 200px;
         margin: 0 0.5rem 2.5em;
@@ -48,6 +53,12 @@ body.dark-theme {
     .posts {
       .post-card {
         background: $foreground-color--dark;
+        a {
+          color: $text-color--dark;
+        }
+        .read-more {
+          color: $link-color--dark;
+        }
         &:hover {
           background: lighten($color: $background-color--dark, $amount: 18);
           border-color: white;

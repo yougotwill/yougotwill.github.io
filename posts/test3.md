@@ -1,6 +1,9 @@
 ---
 title: 'Test3'
 author: 'William Grant'
+abstract: 'Culpa Lorem adipisicing deserunt sint aliqua. Adipisicing ipsum labore eiusmod ex adipisicing non ut commodo excepteur elit adipisicing excepteur.'
+isPublished: true
+publishedOn: '2021-05-03'
 ---
 
 Quis irure nostrud labore id elit ex. Amet cillum incididunt pariatur culpa voluptate aute eu ea. Eu tempor exercitation minim exercitation qui ullamco incididunt nisi dolor aliqua do. Pariatur sunt ad reprehenderit ex enim eu consectetur enim.

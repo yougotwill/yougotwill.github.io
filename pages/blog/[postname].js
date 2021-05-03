@@ -15,7 +15,7 @@ export default function BlogPost({ frontMatter, markdownBody }) {
         <title>{frontMatter.title} | William Grant</title>
       </Head>
       <Layout>
-        <Post title={frontMatter.title} author={frontMatter.author} markdown={markdownBody} />
+        <Post title={frontMatter.title} author={frontMatter.author} date={frontMatter.publishedOn} markdown={markdownBody} />
         <CallToAction />
       </Layout>
     </>

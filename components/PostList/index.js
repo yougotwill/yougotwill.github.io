@@ -14,7 +14,7 @@ export default function PostList({ posts, ...props }) {
                 <Link href={`/blog/${post.slug}`}>
                   <a>
                     <h3>{post.frontMatter.title}</h3>
-                    <p>Culpa Lorem adipisicing deserunt sint aliqua. Adipisicing ipsum labore eiusmod ex adipisicing non ut commodo excepteur elit adipisicing excepteur.</p>
+                    <p>{post.frontMatter.abstract}</p>
                     <p className='read-more'>Read More</p>
                   </a>
                 </Link>
