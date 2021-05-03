@@ -28,14 +28,14 @@ export async function getStaticProps() {
     const data = keys.map((key, index) => {
       let slug = key.replace(/^.*[\\\/]/, '').slice(0, -3);
       const value = values[index];
-      const markdown = matter(value.default)
+      const markdown = matter(value.default);
       return {
         slug,
         frontMatter: markdown.data,
         markdownBody: markdown.content
       };
     });
-    return data;
+    return data.filter((post) => post.frontMatter.isPublished);
   })(require.context('../../posts', true, /\.md$/));
 
   return {

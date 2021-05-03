@@ -5,15 +5,15 @@
 
 ## Blog
 
-- [ ] Added `Published` markdown meta so we can have draft blog posts
+- [x] Added `Published` markdown meta so we can have draft blog posts
 - [ ] https://github.com/cassidoo/next-netlify-blog-starter
 - [ ] Layout ideas https://www.joshwcomeau.com/tutorials/
 - [ ] Tags: Date and topics
   - [ ] Make fully responsive
   - [ ] Adjusting sizing
   - [ ] `post-cards`
-    - [ ] Add post description
-    - [ ] Styling
+    - [x] Add post description
+    - [x] Styling
   - [ ] `[postname]` page
    - [ ] styling content nicely
    - [ ] Responsive

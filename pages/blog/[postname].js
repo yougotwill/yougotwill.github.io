@@ -28,6 +28,8 @@ export async function getStaticProps(context) {
   const content = await import(`../../posts/${postname}.md`);
   const markdown = matter(content.default);
 
+  if (!markdown.data.isPublished) return { notFound: true };
+
   return {
     props: {
       frontMatter: markdown.data,
