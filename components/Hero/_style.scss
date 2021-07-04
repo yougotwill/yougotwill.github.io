@@ -1,4 +1,4 @@
-#hero {
+.hero {
   position: relative;
   height: calc(100vh - 100px);
   display: flex;
@@ -11,7 +11,9 @@
     margin-top: -5rem;
     padding-right: 1rem;
   }
-  h1, h2, h3 {
+  h1,
+  h2,
+  h3 {
     margin-top: 1rem;
     margin-bottom: 1rem;
   }
@@ -24,8 +26,13 @@
   h3 {
     font-size: 1rem;
   }
+  .scroller {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 40px;
+  }
   @include screen($tablet) {
-    height: calc(100vh - 36px - 40px);
     align-items: center;
     h1 {
       font-size: 5rem;
@@ -37,8 +44,12 @@
       font-size: 1.25rem;
       padding-right: 0.15rem;
     }
+    .scroller {
+      bottom: 96px;
+    }
   }
   @include screen($laptop) {
+    height: calc(100vh - 36px - 40px);
     .intro {
       margin-top: -9rem;
     }
@@ -46,7 +57,7 @@
 }
 
 body.dark-theme {
-  #hero {
+  .hero {
     border-color: $text-color;
   }
 }

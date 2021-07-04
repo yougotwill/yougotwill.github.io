@@ -13,10 +13,15 @@ export default function Music() {
       </Head>
       <Layout>
         <div className="loading">
-          <h1>Loading...</h1>
+          <h1>
+            Loading...{' '}
+            <span role="img" alt="headphones">
+              🎧
+            </span>
+          </h1>
         </div>
         <Playlists />
       </Layout>
     </>
   );
-};
+}

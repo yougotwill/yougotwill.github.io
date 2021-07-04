@@ -1,0 +1,74 @@
+.tools {
+  .info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 1rem;
+    .skills {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      max-width: 640px;
+      .skill {
+        background: $foreground-color;
+        width: 80px;
+        height: 80px;
+        margin: 1rem 0.75rem;
+        padding: 1rem;
+        border: 1px solid $border-color;
+        border-radius: 4px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        p {
+          margin-bottom: 0;
+          font-weight: bold;
+        }
+        &:hover {
+          border-color: black;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+  .scroller {
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+  }
+  @include screen($tablet) {
+    h2 {
+      font-size: 4rem;
+    }
+    .info {
+      padding: 2rem;
+      .skills {
+        .skill {
+          margin: 0 1rem 2.5rem;
+        }
+      }
+    }
+    .scroller {
+      margin-top: 2rem;
+      margin-bottom: 2rem;
+    }
+  }
+}
+
+body.dark-theme {
+  .tools {
+    .info {
+      .skills {
+        .skill {
+          background: $text-color;
+          &:hover {
+            border-color: white;
+          }
+        }
+      }
+    }
+  }
+}

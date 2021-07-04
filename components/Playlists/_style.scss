@@ -9,7 +9,7 @@
     @include screen($tablet) {
       height: calc(100vh - 4.5em);
       position: fixed;
-      top: 2.5em;
+      top: 2.5rem;
       width: 25%;
       left: unset;
       overflow-x: unset;

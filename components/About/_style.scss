@@ -1,86 +1,67 @@
-#about {
+.about {
   position: relative;
-  .about-box {
+  .details {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding-left: 2em;
-    padding-right: 2em;
-    padding-bottom: 2em;
-    h2 {
-      text-align: center;
-      text-decoration: underline;
-      text-decoration-thickness: 2px;
-    }
     .avatar {
-      margin: .25em auto .5em;
+      padding-top: 2rem;
+      padding-bottom: 1rem;
+      img {
+        border-radius: 4px;
+        background-color: $primary-color;
+      }
     }
-    .heading {
-      margin-bottom: 0.5em;
-    }
-    .special {
-      margin-top: 1em;
-      margin-bottom: .25em;
-    }
-    .special + p {
-      margin: 0;
-    }
-    .info {
-      .skills {
-        .skill {
-          border: 1px solid $nav-color;
-          border-radius: 6px;
-          font-size: 1.5rem;
-          padding: 1.5rem 2rem;
-          margin-bottom: 1.5rem;
-          text-align: center;
-          img {
-            vertical-align: middle;
-          }
-          span {
-            display: block;
-            margin-bottom: 12px;
-          }
-          &:hover {
-            background: darken($color: $background-color, $amount: 10);
-            border-color: black;
-          }
+    .story {
+      line-height: 1.4;
+      padding-left: 2rem;
+      padding-right: 2rem;
+      p {
+        span {
+          display: inline-block;
         }
-      }
-    }
-    @include screen($tablet) {
-      max-width: 700px;
-      margin: 0 auto;
-      .biography {
-        padding-left: 2rem;
-        padding-right: 2rem;
-      }
-      .skills {
-        .skill {
-          margin: 0 1rem 2.5em;
-        }
-      }
-    }
-    @include screen($laptop) {
-      .biography {
-        padding-left: 0;
-        padding-right: 0;
       }
     }
   }
-}
-
-body.dark-theme {
-  #about {
-    .about-box {
-      .skills {
-        .skill {
-          &:hover {
-            background: lighten($color: $background-color--dark, $amount: 18);
-            border-color: white;
-          }
+  .scroller {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+  }
+  @include screen($tablet) {
+    h2 {
+      font-size: 4rem;
+    }
+    .details {
+      .story {
+        text-align: justify;
+        padding-left: 6rem;
+        padding-right: 6rem;
+      }
+    }
+    .scroller {
+      margin-top: 5rem;
+      margin-bottom: 5rem;
+    }
+  }
+  @include screen($laptop) {
+    .details {
+      flex-direction: row-reverse;
+      width: 66.6666%;
+      margin: 0 auto;
+      padding: 2rem;
+      .avatar {
+        display: flex;
+        flex-direction: column;
+        padding-top: 3rem;
+        padding-left: 3rem;
+        padding-right: 0;
+        img {
+          width: 300px;
+          height: 300px;
         }
+      }
+      .story {
+        padding-left: 1rem;
+        padding-right: 1rem;
       }
     }
   }

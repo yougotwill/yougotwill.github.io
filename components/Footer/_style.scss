@@ -14,42 +14,38 @@ footer {
   align-items: center;
   a {
     @extend .button;
-    padding-left: .25rem;
-    padding-right: .25rem;
+    padding-left: 0.25rem;
+    padding-right: 0.25rem;
     svg {
       width: 24px;
       height: 24px;
     }
   }
-  .built-with, .banner {
-    font-weight: 700;
+  .built-with {
+    font-weight: bold;
     padding-left: 1rem;
     display: none;
   }
-  .banner {
-    svg {
-      padding-left: 0.5rem;
-      vertical-align: bottom;
+  .icon {
+    padding: 0 0.5rem;
+    padding-top: 0.35rem;
+    padding-bottom: 0.05rem;
+    &:hover {
+      padding-top: 0.1rem;
+      padding-bottom: 0.2rem;
     }
   }
-  .icon {
-    padding: 0 .5rem;
-    padding-top: .35rem;
-    padding-bottom: .05rem;
-    &:hover {
-      padding-top: .1rem;
-      padding-bottom: .2rem;
+  @include screen($tablet) {
+    justify-content: space-between;
+    font-size: 1.05rem;
+    padding-right: 0.5rem;
+    padding-bottom: 16px;
+    .built-with {
+      display: block;
     }
   }
   @include screen($laptop) {
-    justify-content: space-between;
-    font-size: 1.05rem;
-    .built-with, .banner {
-      display: block;
-    }
-    .banner {
-      padding-left: 2.5rem;
-    }
+    padding-bottom: 8px;
   }
 }
 

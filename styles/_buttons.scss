@@ -2,7 +2,7 @@
   color: $text-color;
   background: $button-color;
   text-decoration: none;
-  &:hover{
+  &:hover {
     color: $secondary-color;
   }
 }
@@ -10,7 +10,7 @@
 body.dark-theme {
   .button {
     color: $text-color--dark;
-    &:hover{
+    &:hover {
       color: $secondary-color;
     }
   }

@@ -1,21 +1,21 @@
 #cta {
   border-bottom: 1px solid $border-color;
   margin-bottom: 3rem;
-  padding-top: 2rem;
+  padding: 2rem 2rem 5rem;
   .call-to-action {
     margin-bottom: 2.5rem;
     h2 {
       margin-top: 0.5rem;
-      font-size: 2.5rem;
+      font-size: 2rem;
     }
     p {
-      padding-bottom: 16px;
+      padding-bottom: 24px;
     }
     a {
       display: block;
       padding: 8px 16px;
       width: 100%;
-      max-width: 196px;
+      max-width: 180px;
       font-size: 22px;
       border-radius: 6px;
       text-decoration: none;
@@ -27,13 +27,24 @@
         margin-left: 4px;
       }
     }
-    @include screen($tablet) {
+  }
+  @include screen($tablet) {
+    padding-left: unset;
+    padding-right: unset;
+    margin-bottom: 4rem;
+    .call-to-action {
+      h2 {
+        font-size: 4rem;
+      }
       a {
         display: inline-block;
         padding: 8px 32px;
-        margin: 0 16px;
+        margin: 0 24px;
       }
     }
+  }
+  @include screen($laptop) {
+    margin-bottom: 3rem;
   }
 }
 

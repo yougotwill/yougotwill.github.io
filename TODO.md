@@ -1,7 +1,12 @@
-- [ ] Image loading styling
+- [x] Image loading styling
 - [x] 404 Page
 - [ ] Extract `project-card` and `post-card` styling into `card` module.
-- [ ] Updated nav styling to include lines
+- [ ] Make Hero points about me randomly change for wow factor
+- [x] Go over mobile stylings
+- [x] Go over tablet stylings
+- [ ] Deploy
+- [ ] Code cleanup
+- [ ] Add back Portfolio as "My Work"
 
 ## Blog
 
@@ -15,5 +20,5 @@
     - [x] Add post description
     - [x] Styling
   - [ ] `[postname]` page
-   - [ ] styling content nicely
-   - [ ] Responsive
+  - [ ] styling content nicely
+  - [ ] Responsive
