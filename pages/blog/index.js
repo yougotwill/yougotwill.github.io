@@ -7,7 +7,7 @@ import Layout from '@components/Layout';
 import PostList from '@components/PostList';
 import CallToAction from '@components/CallToAction';
 
-export default function Blog({ posts, ...pageProps}) {
+export default function Blog({ posts, ...pageProps }) {
   return (
     <>
       <Head>
@@ -19,7 +19,7 @@ export default function Blog({ posts, ...pageProps}) {
       </Layout>
     </>
   );
-};
+}
 
 export async function getStaticProps() {
   const posts = ((context) => {
@@ -32,7 +32,7 @@ export async function getStaticProps() {
       return {
         slug,
         frontMatter: markdown.data,
-        markdownBody: markdown.content
+        markdownBody: markdown.content,
       };
     });
     return data.filter((post) => post.frontMatter.isPublished);
@@ -40,7 +40,7 @@ export async function getStaticProps() {
 
   return {
     props: {
-      posts
-    }
+      posts,
+    },
   };
 }

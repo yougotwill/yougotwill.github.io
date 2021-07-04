@@ -15,7 +15,12 @@ export default function BlogPost({ frontMatter, markdownBody }) {
         <title>{frontMatter.title} | William Grant</title>
       </Head>
       <Layout>
-        <Post title={frontMatter.title} author={frontMatter.author} date={frontMatter.publishedOn} markdown={markdownBody} />
+        <Post
+          title={frontMatter.title}
+          author={frontMatter.author}
+          date={frontMatter.publishedOn}
+          markdown={markdownBody}
+        />
         <CallToAction />
       </Layout>
     </>
@@ -33,8 +38,8 @@ export async function getStaticProps(context) {
   return {
     props: {
       frontMatter: markdown.data,
-      markdownBody: markdown.content
-    }
+      markdownBody: markdown.content,
+    },
   };
 }
 
@@ -54,5 +59,5 @@ export async function getStaticPaths() {
   return {
     paths,
     fallback: false, // shows 404 page if no match
-  }
+  };
 }

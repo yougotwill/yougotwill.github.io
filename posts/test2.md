@@ -16,4 +16,4 @@ Ad sunt ad ipsum ut culpa nostrud deserunt mollit in magna quis. Id tempor cupid
 - Pariatur non do culpa veniam occaecat proident eu nisi.
 - Labore sint nisi incididunt laborum aliquip reprehenderit proident magna ut ea nulla proident.
 
-*K*, **thanks**, ***bye***.
+_K_, **thanks**, **_bye_**.

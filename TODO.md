@@ -7,6 +7,7 @@
 - [ ] Deploy
 - [ ] Code cleanup
 - [ ] Add back Portfolio as "My Work"
+- [ ] Make Scrollers clickable to load the next section
 
 ## Blog
 
