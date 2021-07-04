@@ -13,36 +13,35 @@ body {
   overscroll-behavior: none;
 }
 section {
-  padding: 1em 0;
-  &.divide {
-    background: $foreground-color;
-  }
-  @include screen($laptop) {
-    padding: 2em 0;
-  }
+  padding-bottom: 1em;
 }
 
-h1,h2,h3,h4,h5,h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: Arial;
   color: $text-color;
   margin-top: 0;
   margin-bottom: 0;
-  &.heading{
-    margin-top: 0.5em;
-    margin-bottom: 1em;
+  &.heading {
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
   }
 }
 
 h1 {
-  font-size: 2.5em;
+  font-size: 2.5rem;
 }
 
 h2 {
-  font-size: 2.25em;
+  font-size: 2.25rem;
 }
 
 h3 {
-  font-size: 1.5em;
+  font-size: 1.5rem;
 }
 
 .loading {
@@ -52,44 +51,56 @@ h3 {
   right: 0;
   z-index: -1;
   h1 {
-    font-size: 4em;
+    font-size: 4rem;
   }
 }
 
 .scroller {
-  width: 1.5em;
-  height: 1.5em;
-  fill: currentColor;
-  position: absolute;
-  bottom: 0.5em;
-  animation: pulse 2s cubic-bezier(.4,0,.6,1) infinite;
-  &.left {
-    left: 1em;
-  }
-  &.right {
-    right: 1em;
+  margin: 0 auto;
+  text-align: center;
+  svg {
+    width: 1.5rem;
+    height: 1.5rem;
+    fill: currentColor;
+    animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
   }
   @keyframes pulse {
     50% {
       opacity: 0.1;
-    }    
+    }
   }
 }
 
 .special {
   cursor: pointer;
-  color: $link-color;
+  color: $text-color;
+  font-weight: bold;
+  background-color: $link-color;
+  border-radius: 4px;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+.bordered {
+  border: 1px solid transparent;
+  &:hover {
+    border-color: black;
+  }
+}
+
+.text-right {
+  text-align: right;
 }
 
 @include screen($tablet) {
   h1 {
-    font-size: 3em;
+    font-size: 3rem;
   }
   h2 {
-    font-size: 2.25em;
+    font-size: 2.25rem;
   }
   h3 {
-    font-size: 1.75em;
+    font-size: 1.75rem;
   }
 }
 
@@ -101,30 +112,25 @@ a {
   }
 }
 
-p {
-  a {
-    font-style: italic;
-  }
-}
-
 body.dark-theme {
   background: $background-color--dark;
   color: $text-color--dark;
-  h1,h2,h3,h4,h5,h6 {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
     color: $text-color--dark;
   }
   a {
     color: $link-color--dark;
-    &:hover {
-      color: $text-color--dark;
-    }
-  }
-  section {
-    &.divide {
-      background: $foreground-color--dark;
-    }
   }
   .special {
-    color: $link-color--dark;
+    color: $link-color;
+    background-color: $text-color;
+  }
+  .bordered:hover {
+    border-color: white;
   }
 }

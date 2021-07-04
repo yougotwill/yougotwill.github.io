@@ -11,4 +11,4 @@ if (typeof window !== 'undefined') {
       loadTheme();
     });
   }
-};
+}

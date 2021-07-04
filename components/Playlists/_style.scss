@@ -3,14 +3,13 @@
   height: calc(100vh - 3.5em);
   overflow-x: scroll;
   -webkit-overflow-scrolling: touch;
-  margin-top: 3em;
   .card {
     height: calc(100vh - 84px);
     width: 100%;
     @include screen($tablet) {
       height: calc(100vh - 4.5em);
       position: fixed;
-      top: 2.5em;
+      top: 2.5rem;
       width: 25%;
       left: unset;
       overflow-x: unset;

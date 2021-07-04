@@ -7,49 +7,45 @@ footer {
   padding: 0;
   z-index: 2;
   height: 100%;
-  max-height: 36px;
+  max-height: 40px;
+  padding-bottom: 8px;
   display: flex;
   justify-content: center;
   align-items: center;
   a {
     @extend .button;
-    padding-left: .25em;
-    padding-right: .25em;
-    img {
-      width: 22px;
-      height: 22px;
-      background-color: transparent;
+    padding-left: 0.25rem;
+    padding-right: 0.25rem;
+    svg {
+      width: 24px;
+      height: 24px;
     }
   }
-  .built-with, .banner {
-    font-weight: 700;
-    padding-left: 1em;
+  .built-with {
+    font-weight: bold;
+    padding-left: 1rem;
     display: none;
   }
-  .banner {
-    img {
-      padding-left: 0.5em;
-      vertical-align: bottom;
+  .icon {
+    padding: 0 0.5rem;
+    padding-top: 0.35rem;
+    padding-bottom: 0.05rem;
+    &:hover {
+      padding-top: 0.1rem;
+      padding-bottom: 0.2rem;
     }
   }
-  .icon {
-    padding: 0 .5em;
-    padding-top: .35em;
-    padding-bottom: .05em;
-    &:hover {
-      padding-top: .1em;
-      padding-bottom: .25em;
+  @include screen($tablet) {
+    justify-content: space-between;
+    font-size: 1.05rem;
+    padding-right: 0.5rem;
+    padding-bottom: 16px;
+    .built-with {
+      display: block;
     }
   }
   @include screen($laptop) {
-    justify-content: space-between;
-    font-size: 1.05em;
-    .built-with, .banner {
-      display: block;
-    }
-    .banner {
-      padding-left: 2.5em;
-    }
+    padding-bottom: 8px;
   }
 }
 

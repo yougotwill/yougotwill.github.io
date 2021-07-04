@@ -1,21 +1,23 @@
 $background-color: #ffffff;
-$foreground-color: #F3F3F3;
-$nav-color: #999999;
-$text-color: #363E45;
+$foreground-color: #f9f9f9;
+$nav-color: #ffffff;
+$text-color: #363e45;
+$border-color: rgba(0, 0, 0, 0.1);
 
 // dark theme
 $background-color--dark: #1a1a1a;
 $foreground-color--dark: #333333;
 $nav-color--dark: #1a1a1a;
-$text-color--dark: #CCCCCC;
+$text-color--dark: #cccccc;
+$text-color--dark: #ffffff;
 
 // blue
-$primary-color: #0084C2;
-$secondary-color: #0FB3FF;
+$primary-color: #62d8c2;
+$secondary-color: $primary-color;
 
 // links
 $link-color: $primary-color;
-$link-color--dark: #fd2965;
+$link-color--dark: $primary-color;
 
 // components
 $button-color: none;

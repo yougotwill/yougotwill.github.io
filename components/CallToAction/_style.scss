@@ -1,59 +1,58 @@
 #cta {
-  border-top: 2px solid $text-color;
-  border-bottom: 2px solid $text-color;
+  border-bottom: 1px solid $border-color;
   margin-bottom: 3rem;
-  padding-top: 2rem;
+  padding: 2rem 2rem 5rem;
   .call-to-action {
-    margin-bottom: 2.5em;
+    margin-bottom: 2.5rem;
     h2 {
-      margin-top: 0.5em;
-      font-size: 2.5em;
+      margin-top: 0.5rem;
+      font-size: 2rem;
     }
     p {
-      padding-bottom: 16px;
+      padding-bottom: 24px;
     }
     a {
       display: block;
       padding: 8px 16px;
-      max-width: 196px;
+      width: 100%;
+      max-width: 180px;
       font-size: 22px;
-      background: $background-color;
-      color: $primary-color;
       border-radius: 6px;
       text-decoration: none;
       margin: 24px auto;
       position: relative;
-      border: 1px solid $nav-color;
-      img {
+      svg {
         vertical-align: middle;
         margin-top: -4px;
         margin-left: 4px;
       }
-      &:hover {
-        color: $primary-color;
-      }
     }
-    @include screen($tablet) {
+  }
+  @include screen($tablet) {
+    padding-left: unset;
+    padding-right: unset;
+    margin-bottom: 4rem;
+    .call-to-action {
+      h2 {
+        font-size: 4rem;
+      }
       a {
         display: inline-block;
         padding: 8px 32px;
-        margin: 0 16px;
-        &:hover {
-          @include grow(1.2);
-        }
+        margin: 0 24px;
       }
     }
+  }
+  @include screen($laptop) {
+    margin-bottom: 3rem;
   }
 }
 
 body.dark-theme {
   #cta {
-    border-color: $text-color--dark;
+    border-color: $text-color;
     .call-to-action {
       a {
-        background: $background-color--dark;
-        color: $primary-color;
-        border: 1px solid transparent;
         &:hover {
           color: $primary-color;
         }
