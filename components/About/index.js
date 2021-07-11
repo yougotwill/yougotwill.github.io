@@ -19,7 +19,7 @@ const About = () => {
         </div>
         <div className="story">
           <p>
-            When I was young on my weekends, I loved looking at Apple products
+            When I was young, on my weekends I loved looking at Apple products
             in the iStore. I adored how beautiful and clean everything looked -
             right down to the boxes. That was my first introduction into the
             tech world.
@@ -34,14 +34,21 @@ const About = () => {
           <p>
             As the internet continued to grow and new web technologies started
             to become a part of our daily lives, I realised I had a good eye for
-            what made products <span className="special">"look good"</span> and
-            my obsession with front-end development was born!
+            what made products{' '}
+            <a
+              className="special"
+              href="https://giphy.com/gifs/handsome-will-smith-men-in-black-jUr6ul7c26FYA/fullscreen"
+              target="_blank"
+            >
+              "look good"
+            </a>{' '}
+            and my obsession with front-end development was born!
           </p>
 
           <p>
             Now I'm an aspiring web developer focusing on front-end. My other
-            interests are studying Japanese, listening to music and going on
-            walks (usually to coffee shops or museums).
+            interests are reading, listening to music, studying Japanese, and
+            going on walks (usually to coffee shops or museums).
           </p>
 
           <p className="resume">

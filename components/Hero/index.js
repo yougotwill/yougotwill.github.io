@@ -9,10 +9,10 @@ const Hero = () => {
           </span>
         </h1>
         <h2>
-          My name is <span className="special">William Grant</span> ,
+          My name is <span className="special">William Grant</span> .
         </h2>
         <h2>
-          the{' '}
+          The{' '}
           <span className="special">
             Ramen Enthusiast{' '}
             <span className="icon" role="img" aria-label="ramen bowl">
