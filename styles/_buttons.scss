@@ -1,17 +1,17 @@
 .button {
-  color: $text-color;
-  background: $button-color;
+  color: $foreground-color--light;
+  background: $button-color--light;
   text-decoration: none;
   &:hover {
-    color: $secondary-color;
+    color: $secondary-color--light;
   }
 }
 
 body.dark-theme {
   .button {
-    color: $text-color--dark;
+    color: $foreground-color--dark;
     &:hover {
-      color: $secondary-color;
+      color: $secondary-color--dark;
     }
   }
 }

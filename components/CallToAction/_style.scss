@@ -1,5 +1,5 @@
 #cta {
-  border-bottom: 1px solid $border-color;
+  border-bottom: 1px solid $border-color--light;
   margin-bottom: 3rem;
   padding: 2rem 2rem 5rem;
   .call-to-action {
@@ -50,11 +50,11 @@
 
 body.dark-theme {
   #cta {
-    border-color: $text-color;
+    border-color: $foreground-color--dark;
     .call-to-action {
       a {
         &:hover {
-          color: $primary-color;
+          color: $primary-color--dark;
         }
       }
     }

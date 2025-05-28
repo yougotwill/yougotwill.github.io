@@ -1,6 +1,11 @@
 {
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": "always"
+  },
   "editor.formatOnSave": true,
-    "[javascript]": {
-      "editor.defaultFormatter": "esbenp.prettier-vscode"
-    }
+  "files.exclude": {},
+  "files.watcherExclude": {
+    ".next": true
+  },
+  "svg.preview.background": "transparent"
 }

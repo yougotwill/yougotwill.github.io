@@ -10,10 +10,11 @@ const About = () => {
       <div className="details">
         <div className="avatar">
           <img
-            src="/resources/images/avatar.png"
+            src="/resources/images/avatar.jpg"
             alt="avatar"
-            width="250px"
-            height="250px"
+            png
+            width="500px"
+            height="500px"
             loading="lazy"
           />
         </div>
@@ -55,7 +56,7 @@ const About = () => {
             If you want to learn more about me check out my{' '}
             <a
               className="special bordered"
-              href="https://drive.google.com/file/d/1FpGmgjNU0zxcZ6B9JhdeffmCqU2iaPLv/view?usp=sharing"
+              href="https://drive.proton.me/urls/38K0G4YCJM#JgBW2n9dtE8X"
               target="_blank"
               rel="noopener noreferrer"
             >

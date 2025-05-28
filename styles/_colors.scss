@@ -1,22 +1,33 @@
-$background-color: #ffffff;
-$foreground-color: #f9f9f9;
-$nav-color: #ffffff;
-$text-color: #363e45;
-$border-color: rgba(0, 0, 0, 0.1);
-
 // dark theme
 $background-color--dark: #1a1a1a;
 $foreground-color--dark: #333333;
 $nav-color--dark: #1a1a1a;
-$text-color--dark: #ffffff;
+$foreground-color--dark: #ffffff;
+$border-color--dark: rgba(0, 0, 0, 0.1);
 
-// blue
-$primary-color: #62d8c2;
-$secondary-color: $primary-color;
+// colors
+$primary-color--dark: #62d8c2;
+$secondary-color--dark: $primary-color--dark;
 
 // links
-$link-color: $primary-color;
-$link-color--dark: $primary-color;
+$link-color--dark: $primary-color--dark;
 
 // components
-$button-color: none;
+$button-color--dark: none;
+
+// light theme
+$background-color--light: #ffffff;
+$foreground-color--light: #f9f9f9;
+$nav-color--light: #ffffff;
+$foreground-color--light: #363e45;
+$border-color--light: rgba(0, 0, 0, 0.1);
+
+// colors
+$primary-color--light: #62d8c2;
+$secondary-color--light: $primary-color--light;
+
+// links
+$link-color--light: $primary-color--light;
+
+// components
+$button-color--light: none;

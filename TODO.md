@@ -1,10 +1,15 @@
+# Tasks
+
+## Current Status
+
+- [ ] Fix new avatar positioning
 - [x] Image loading styling
 - [x] 404 Page
 - [ ] Extract `project-card` and `post-card` styling into `card` module.
 - [ ] Make Hero points about me randomly change for wow factor
 - [x] Go over mobile stylings
 - [x] Go over tablet stylings
-- [ ] Deploy
+- [x] Deploy
 - [ ] Code cleanup
 - [ ] Add back Portfolio as "My Work"
 - [ ] Make Scrollers clickable to load the next section

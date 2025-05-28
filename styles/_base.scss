@@ -7,8 +7,8 @@
 body {
   font-family: Verdana, Geneva, sans-serif;
   font-size: 16px;
-  background: $background-color;
-  color: $text-color;
+  background: $background-color--light;
+  color: $foreground-color--light;
   text-align: center;
   overscroll-behavior: none;
 }
@@ -23,7 +23,7 @@ h4,
 h5,
 h6 {
   font-family: Arial;
-  color: $text-color;
+  color: $foreground-color--light;
   margin-top: 0;
   margin-bottom: 0;
   &.heading {
@@ -73,9 +73,9 @@ h3 {
 
 .special {
   cursor: pointer;
-  color: $text-color;
+  color: $foreground-color--light;
   font-weight: bold;
-  background-color: $link-color;
+  background-color: $link-color--light;
   border-radius: 4px;
   padding-left: 0.5rem;
   padding-right: 0.5rem;
@@ -105,30 +105,30 @@ h3 {
 }
 
 a {
-  color: $link-color;
+  color: $link-color--light;
   text-decoration: none;
   &:hover {
-    color: $text-color;
+    color: $foreground-color--light;
   }
 }
 
 body.dark-theme {
   background: $background-color--dark;
-  color: $text-color--dark;
+  color: $foreground-color--dark;
   h1,
   h2,
   h3,
   h4,
   h5,
   h6 {
-    color: $text-color--dark;
+    color: $foreground-color--dark;
   }
   a {
     color: $link-color--dark;
   }
   .special {
-    color: $link-color;
-    background-color: $text-color;
+    color: $link-color--light;
+    background-color: $foreground-color--light;
   }
   .bordered:hover {
     border-color: white;
