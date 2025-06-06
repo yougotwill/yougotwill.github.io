@@ -2,7 +2,8 @@
 
 ## Current Status
 
-- [ ] Fix new avatar positioning
+- [ ] Update Tools section
+- [x] Fix new avatar positioning
 - [x] Image loading styling
 - [x] 404 Page
 - [ ] Extract `project-card` and `post-card` styling into `card` module.

@@ -32,15 +32,6 @@ const Hero = () => {
         </h2>
         <h2>
           <span className="special">
-            South African{' '}
-            <span className="icon" role="img" aria-label="south africa">
-              🇿🇦
-            </span>
-          </span>{' '}
-          ,
-        </h2>
-        <h2>
-          <span className="special">
             Music Lover{' '}
             <span className="icon" role="img" aria-label="headphones">
               🎧
