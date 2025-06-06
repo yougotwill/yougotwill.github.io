@@ -45,6 +45,8 @@
     }
   }
   @include screen($laptop) {
+    max-width: 1440px;
+    margin: 0 auto;
     .details {
       flex-direction: row-reverse;
       width: 66.6666%;
@@ -66,9 +68,5 @@
         padding-right: 1rem;
       }
     }
-  }
-  @include screen($monitor) {
-    max-width: 1440px;
-    margin: 0 auto;
   }
 }
