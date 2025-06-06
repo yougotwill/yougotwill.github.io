@@ -10,11 +10,10 @@ const About = () => {
       <div className="details">
         <div className="avatar">
           <img
-            src="/resources/images/avatar.jpg"
+            src="/resources/images/avatar.png"
             alt="avatar"
-            png
-            width="500px"
-            height="500px"
+            width="512px"
+            height="512px"
             loading="lazy"
           />
         </div>

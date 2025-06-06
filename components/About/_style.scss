@@ -9,6 +9,8 @@
       img {
         border-radius: 4px;
         background-color: $primary-color--light;
+        max-width: 200px;
+        max-height: 200px;
       }
     }
     .story {
@@ -55,8 +57,8 @@
         padding-left: 3rem;
         padding-right: 0;
         img {
-          width: 300px;
-          height: 300px;
+          max-width: 300px;
+          max-height: 300px;
         }
       }
       .story {
@@ -64,5 +66,9 @@
         padding-right: 1rem;
       }
     }
+  }
+  @include screen($monitor) {
+    max-width: 1440px;
+    margin: 0 auto;
   }
 }
