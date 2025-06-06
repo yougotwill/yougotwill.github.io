@@ -19,10 +19,9 @@ const About = () => {
         </div>
         <div className="story">
           <p>
-            When I was young, on my weekends I loved looking at Apple products
-            in the iStore. I adored how beautiful and clean everything looked -
-            right down to the boxes. That was my first introduction into the
-            tech world.
+            When I was young, over the weekend I loved to visit the Apple Store.
+            I adored how beautiful and clean everything looked - right down to
+            the packaging. That was my first introduction into the tech world.
           </p>
 
           <p>
@@ -32,9 +31,8 @@ const About = () => {
           </p>
 
           <p>
-            As the internet continued to grow and new web technologies started
-            to become a part of our daily lives, I realised I had a good eye for
-            what made products{' '}
+            As web technologies evolved and became integral to daily life, I
+            realised I had a good eye for what made products{' '}
             <a
               className="special"
               href="https://giphy.com/gifs/handsome-will-smith-men-in-black-jUr6ul7c26FYA/fullscreen"
@@ -46,13 +44,25 @@ const About = () => {
           </p>
 
           <p>
-            Now I'm an aspiring web developer focusing on front-end. My other
-            interests are reading, listening to music, studying Japanese, and
-            going on walks (usually to coffee shops or museums).
+            Now, I am a Senior Frontend Engineer experienced in Next.js,
+            React.js, Electron.js, and TypeScript. Most recently I played a key
+            role on the{' '}
+            <a
+              className="special bordered"
+              href="https://getsession.org"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Session Messenger
+            </a>{' '}
+            Desktop Team. My work covers messaging and web3 applications,
+            company websites, and full-stack solutions.
           </p>
 
           <p className="resume">
-            If you want to learn more about me check out my{' '}
+            Beyond coding, I enjoy listening to all kinds of music, studying
+            Japanese, reading, and trying out new coffee shops. If you'd like to
+            learn more about my journey and skills, please check out my full{' '}
             <a
               className="special bordered"
               href="https://drive.proton.me/urls/38K0G4YCJM#JgBW2n9dtE8X"

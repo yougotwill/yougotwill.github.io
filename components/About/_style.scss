@@ -45,6 +45,19 @@
     }
   }
   @include screen($laptop) {
+    max-width: 1024px;
+    .details {
+      .avatar {
+        padding-top: 3rem;
+        img {
+          max-width: 250px;
+          max-height: 250px;
+        }
+      }
+    }
+  }
+
+  @include screen($desktop) {
     max-width: 1440px;
     margin: 0 auto;
     .details {

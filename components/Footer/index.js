@@ -1,10 +1,10 @@
-// import CVSVG from 'public/resources/ui/cv.svg';
-import EmailSVG from 'public/resources/ui/email.svg';
-import InstagramSVG from 'public/resources/ui/instagram.svg';
-import TwitterSVG from 'public/resources/ui/twitter.svg';
+import ResumeSVG from 'public/resources/ui/cv.svg';
 import DevtoSVG from 'public/resources/ui/devto.svg';
-import LinkedinSVG from 'public/resources/ui/linkedin.svg';
+import EmailSVG from 'public/resources/ui/email.svg';
 import GithubSVG from 'public/resources/ui/github.svg';
+import InstagramSVG from 'public/resources/ui/instagram.svg';
+import LinkedinSVG from 'public/resources/ui/linkedin.svg';
+import TwitterSVG from 'public/resources/ui/twitter.svg';
 
 const Footer = () => {
   return (
@@ -20,16 +20,8 @@ const Footer = () => {
         </span>
       </span>
       <div>
-        {/* <a
-          href="https://drive.google.com/file/d/1FpGmgjNU0zxcZ6B9JhdeffmCqU2iaPLv/view?usp=sharing"
-          title="CV"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <CVSVG className="icon" aria-label="CV" />
-        </a> */}
         <a
-          href="mailto:yougotwill94@gmail.com"
+          href="mailto:hi@yougotwill.com"
           title="Email"
           target="_blank"
           rel="noopener noreferrer"
@@ -75,6 +67,14 @@ const Footer = () => {
           rel="noopener noreferrer"
         >
           <DevtoSVG className="icon" aria-label="DevTo" />
+        </a>
+        <a
+          href="https://drive.proton.me/urls/38K0G4YCJM#JgBW2n9dtE8X"
+          title="Resume"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <ResumeSVG className="icon" aria-label="Resume" />
         </a>
       </div>
     </footer>

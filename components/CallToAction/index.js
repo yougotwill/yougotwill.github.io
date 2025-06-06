@@ -14,7 +14,7 @@ const CallToAction = () => {
         <p>Feel free to contact me for any kind of inquiries.</p>
         <a
           className="special bordered"
-          href="mailto:yougotwill94@gmail.com"
+          href="mailto:hi@yougotwill.com"
           title="Email"
           target="_blank"
           rel="noopener noreferrer"
