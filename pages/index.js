@@ -1,12 +1,11 @@
 import Head from 'next/head';
 
-import '@utils/theme';
-import Layout from '@components/Layout';
-import Hero from '@components/Hero';
 import About from '@components/About';
-import Tools from '@components/Tools';
-// import Portfolio from '@components/Portfolio';
 import CallToAction from '@components/CallToAction';
+import Hero from '@components/Hero';
+import Layout from '@components/Layout';
+import Tools from '@components/Tools';
+import '@utils/theme';
 
 export default function Home() {
   return (
@@ -49,7 +48,6 @@ export default function Home() {
         <Hero />
         <About />
         <Tools />
-        {/* <Portfolio /> */}
         <CallToAction />
       </Layout>
     </>

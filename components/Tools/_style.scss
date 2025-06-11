@@ -11,12 +11,13 @@
       align-items: center;
       flex-wrap: wrap;
       max-width: 640px;
+      margin: 0 auto;
       .skill {
         background: $foreground-color--dark;
         width: 80px;
-        height: 80px;
+        height: 64px;
         margin: 1rem 0.75rem;
-        padding: 1rem;
+        padding: 2rem;
         border: 1px solid $border-color--light;
         border-radius: 4px;
         text-align: center;
@@ -27,6 +28,11 @@
         p {
           margin-bottom: 0;
           font-weight: bold;
+          white-space: nowrap;
+          color: $foreground-color--light;
+        }
+        svg {
+          fill: $foreground-color--light;
         }
         &:hover {
           border-color: black;
@@ -56,6 +62,23 @@
       margin-bottom: 2rem;
     }
   }
+  @include screen($laptop) {
+    .info {
+      .skills {
+        max-width: 700px;
+      }
+    }
+  }
+  @include screen($desktop) {
+    .info {
+      .skills {
+        .skill {
+          width: 120px;
+          height: 100px;
+        }
+      }
+    }
+  }
 }
 
 body.dark-theme {
@@ -64,6 +87,12 @@ body.dark-theme {
       .skills {
         .skill {
           background: $foreground-color--light;
+          p {
+            color: $foreground-color--dark;
+          }
+          svg {
+            fill: $primary-color--dark;
+          }
           &:hover {
             border-color: white;
           }

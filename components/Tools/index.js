@@ -1,3 +1,6 @@
+import { SKILLS } from 'lib/constants';
+import ResumeSVG from 'public/resources/ui/cv.svg';
+
 const Tools = () => {
   return (
     <section className="tools">
@@ -9,114 +12,29 @@ const Tools = () => {
       </h2>
       <div className="info">
         <div className="skills">
-          <div className="skill">
-            <img
-              src="/resources/ui/javascript.svg"
-              width="48px"
-              height="48px"
-              alt="javascript"
-            />
-            <p>Javascript</p>
-          </div>
-          <div className="skill">
-            <img
-              src="/resources/ui/react.svg"
-              width="48px"
-              height="48px"
-              alt="react"
-            />
-            <p>React.js</p>
-          </div>
-          <div className="skill">
-            <img
-              src="/resources/ui/ember.svg"
-              width="48px"
-              height="48px"
-              alt="ember"
-            />
-            <p>Ember.js</p>
-          </div>
-          <div className="skill">
-            <img
-              src="/resources/ui/node.svg"
-              width="48px"
-              height="48px"
-              alt="node"
-            />
-            <p>Node.js</p>
-          </div>
-          <div className="skill">
-            <img
-              src="/resources/ui/html5.svg"
-              width="48px"
-              height="48px"
-              alt="html5"
-            />
-            <p>HTML5</p>
-          </div>
-          <div className="skill">
-            <img
-              src="/resources/ui/css3.svg"
-              width="48px"
-              height="48px"
-              alt="css3"
-            />
-            <p>CSS3</p>
-          </div>
-          <div className="skill">
-            <img
-              src="/resources/ui/sass.svg"
-              width="48px"
-              height="48px"
-              alt="sass"
-            />
-            <p>Sass</p>
-          </div>
-          <div className="skill">
-            <img
-              src="/resources/ui/tailwind.svg"
-              width="48px"
-              height="48px"
-              alt="tailwind"
-            />
-            <p>Tailwind</p>
-          </div>
-          <div className="skill">
-            <img
-              src="/resources/ui/unity.svg"
-              width="48px"
-              height="48px"
-              alt="unity"
-            />
-            <p>Unity3D</p>
-          </div>
-          <div className="skill">
-            <img
-              src="/resources/ui/csharp.svg"
-              width="48px"
-              height="48px"
-              alt="csharp"
-            />
-            <p>C#</p>
-          </div>
-          <div className="skill">
-            <img
-              src="/resources/ui/python.svg"
-              width="48px"
-              height="48px"
-              alt="python"
-            />
-            <p>Python</p>
-          </div>
-          <div className="skill">
-            <img
-              src="/resources/ui/java.svg"
-              width="48px"
-              height="48px"
-              alt="java"
-            />
-            <p>Java</p>
-          </div>
+          {SKILLS.map((skill) => {
+            return (
+              <div key={skill.src} className="skill">
+                <img
+                  src={skill.src}
+                  alt={skill.alt}
+                  width="48px"
+                  height="48px"
+                />
+                <p>{skill.name}</p>
+              </div>
+            );
+          })}
+          <a
+            title="Resume"
+            href="https://drive.proton.me/urls/38K0G4YCJM#JgBW2n9dtE8X"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="skill"
+          >
+            <ResumeSVG width="48px" height="48px" aria-label="Resume" />
+            <p>See more</p>
+          </a>
         </div>
       </div>
       <div className="scroller">

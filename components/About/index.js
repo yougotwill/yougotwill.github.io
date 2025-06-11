@@ -11,7 +11,7 @@ const About = () => {
         <div className="avatar">
           <img
             src="/resources/images/avatar.png"
-            alt="avatar"
+            alt="man with a brown beard in an 8bit art style"
             width="512px"
             height="512px"
             loading="lazy"
@@ -60,9 +60,9 @@ const About = () => {
           </p>
 
           <p className="resume">
-            Beyond coding, I enjoy listening to all kinds of music, studying
-            Japanese, reading, and trying out new coffee shops. If you'd like to
-            learn more about my journey and skills, please check out my full{' '}
+            Beyond coding, I enjoy listening to music, reading, studying
+            Japanese and trying out new coffee shops. If you'd like to learn
+            more about my journey and skills, please check out my full{' '}
             <a
               className="special bordered"
               href="https://drive.proton.me/urls/38K0G4YCJM#JgBW2n9dtE8X"
