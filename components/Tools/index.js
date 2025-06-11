@@ -27,7 +27,7 @@ const Tools = () => {
           })}
           <a
             title="Resume"
-            href="https://yougotwill.com/resume"
+            href="https://resume.yougotwill.com"
             target="_blank"
             rel="noopener noreferrer"
             className="skill"

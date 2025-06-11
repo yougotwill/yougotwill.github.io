@@ -69,7 +69,7 @@ const Footer = () => {
           <DevtoSVG className="icon" aria-label="DevTo" />
         </a>
         <a
-          href="https://yougotwill.com/resume"
+          href="https://resume.yougotwill.com"
           title="Resume"
           target="_blank"
           rel="noopener noreferrer"
