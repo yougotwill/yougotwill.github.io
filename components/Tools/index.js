@@ -27,7 +27,7 @@ const Tools = () => {
           })}
           <a
             title="Resume"
-            href="https://drive.proton.me/urls/38K0G4YCJM#JgBW2n9dtE8X"
+            href="https://yougotwill.com/resume"
             target="_blank"
             rel="noopener noreferrer"
             className="skill"
