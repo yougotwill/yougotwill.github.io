@@ -1,5 +1,5 @@
 {
-  "name": "yougotwill.github.io-next",
+  "name": "yougotwill.github.io",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -7,7 +7,9 @@
     "build": "next build",
     "build:static": "next build && next export",
     "start": "next start",
-    "start:static": "npx serve -s out"
+    "start:static": "npx serve -s out",
+    "clean": "rm -Rf node_modules .next .turbo",
+    "format": "prettier . -lw"
   },
   "dependencies": {
     "gray-matter": "^4.0.3",

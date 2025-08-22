@@ -5,7 +5,7 @@
   "editor.formatOnSave": true,
   "files.exclude": {},
   "files.watcherExclude": {
+    "node_modules": true,
     ".next": true
-  },
-  "svg.preview.background": "transparent"
+  }
 }
