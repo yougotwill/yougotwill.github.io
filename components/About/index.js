@@ -1,4 +1,3 @@
-import Link from 'next/link';
 const About = () => {
   return (
     <section className="about">
@@ -64,15 +63,14 @@ const About = () => {
             Beyond coding, I enjoy listening to music, reading, studying
             Japanese and trying out new coffee shops. If you'd like to learn
             more about my journey and skills, please check out my full{' '}
-            <Link href="/resume">
-              <a
-                className="special bordered"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                resume
-              </a>
-            </Link>
+            <a
+              href="https://drive.google.com/file/d/12aE7Z6JQOzLrjgR7T251Cmo-77n4EaDR/view?usp=sharing"
+              className="special bordered"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              resume
+            </a>
             .
           </p>
         </div>

@@ -1,5 +1,4 @@
 import { SKILLS } from 'lib/constants';
-import Link from 'next/link';
 import ResumeSVG from 'public/resources/ui/cv.svg';
 
 const Tools = () => {
@@ -26,17 +25,16 @@ const Tools = () => {
               </div>
             );
           })}
-          <Link href="/resume">
-            <a
-              title="Resume"
-              className="skill"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <ResumeSVG width="48px" height="48px" aria-label="Resume" />
-              <p>See more</p>
-            </a>
-          </Link>
+          <a
+            href="https://drive.google.com/file/d/12aE7Z6JQOzLrjgR7T251Cmo-77n4EaDR/view?usp=sharing"
+            title="Resume"
+            className="skill"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <ResumeSVG width="48px" height="48px" aria-label="Resume" />
+            <p>See more</p>
+          </a>
         </div>
       </div>
       <div className="scroller">
