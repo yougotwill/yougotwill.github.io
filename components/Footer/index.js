@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import ResumeSVG from 'public/resources/ui/cv.svg';
 import DevtoSVG from 'public/resources/ui/devto.svg';
 import EmailSVG from 'public/resources/ui/email.svg';
@@ -68,14 +69,16 @@ const Footer = () => {
         >
           <DevtoSVG className="icon" aria-label="DevTo" />
         </a>
-        <a
-          href="https://resume.yougotwill.com"
-          title="Resume"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <ResumeSVG className="icon" aria-label="Resume" />
-        </a>
+        <Link href="/resume">
+          <a
+            title="Resume"
+            className="skill"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <ResumeSVG className="icon" aria-label="Resume" />
+          </a>
+        </Link>
       </div>
     </footer>
   );
